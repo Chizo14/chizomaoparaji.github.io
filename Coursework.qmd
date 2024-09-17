@@ -1,0 +1,23 @@
+## Information Management
+
+This course introduces the database systems including the concepts, design, programming, and management of database systems. It provides training in DBMS and introduces new technologies such as NoSQL and various types of modern database systems.process.
+
+## Data Visualization
+
+This course builds data literacy through communicating data patterns, findings and insights via visual representation of data. This course is designed to equip data scientists with data theory, principles and concepts of visualizing data and best practices in visual data analytics.
+
+## Methods of Data Collection and Production
+
+This course introduces data collection and production methods in the big data age. It aims at providing a comprehensive framework in understanding data, and how social scientists conduct research starting from the data generation process.
+
+## Research in Neuroscience
+
+This is an internship where I conducted reserach in the field of Cognitve Science and Neuroscience
+
+## Special Topics in Cognitive Science and Neuroscience
+
+This is a special topics class where I got the opportunity to build a Virtual Reality driving simulation model using Python, SQL, and various research methods.
+
+## User Experience Design
+
+Understanding how to design effective user experiences is essential for the success of a software system. This class covers topics associated with the design and analysis of user interfaces for software systems and explores human-computer interaction.

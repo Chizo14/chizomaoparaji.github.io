@@ -1,0 +1,41 @@
+![](images/Chizoma%20Oparaji%20B.S%20grad%20pic.jpg){width="129"}
+
+# Hi There!
+
+I'm Chizoma Oparaji, experienced Data Analyst and UX Researcher with a strong foundation in turning complex data into actionable insights and designing user-centric digital experiences. Combining expertise in data analysis and user research, I leverage both quantitative and qualitative methodologies to optimize product design and improve user engagement. Passionate about blending analytical skills with a deep understanding of user behavior to create intuitive, data-driven solutions that meet both business goals and user needs.
+
+## 
+
+## Skills
+
+-   Surveys
+-   Contextual Interviews
+-   Heuristic Evaluation
+-   Personas
+-   Storyboarding
+-   Wireframing
+-   Data Visualization
+-   Rapid Prototyping
+-   Design Thinking
+-   Information Architecture
+-   Web Design
+-   Responsive Design
+-   Competitive Analysis
+-   Affinity Diagramming
+-   Customer Journey Mapping
+-   Usability Testing
+-   Interaction Design
+-   UI Design
+
+## Tools
+
+-   Figma Sketch Invision Miro
+-   Mural Python Javascript
+-   TOOLS Marvel Microsoft Suite
+-   Photoshop Webflow Illustrator PROGRAMMING
+-   HTML CSS CERTIFICATIONS
+-   Dscount Tableau Power BI InDesign
+
+## Contact Me
+
+https://chizo14.github.io/datacollection.github.io

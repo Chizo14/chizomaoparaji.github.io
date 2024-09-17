@@ -1,0 +1,40 @@
+project:
+  type: website
+  
+website: 
+  title: "Chizoma Oparaji's Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: Coursework.qmd
+        text: Coursework
+      - href: Methods of Data Collection and Producion 
+      - text: "Methods of Data Collection and Production"
+        menu:
+          - href: Assignment1.qmd
+            text: "Assignment 1"
+      - href: Projects.qmd
+        text: Projects
+      - href: Research.qmd
+        text: Research
+      - href: Chizoma's Oparaji Resume.pdf
+        text: CV
+
+       
+
+
+
+output:
+  html_document:
+    theme: pulse
+    css: styles.css
+    fontsize: 1.5em
+    mainfont: Open Sans 
+    monofont: Inconsolata
+    toc: true
+    
+editor: visual
+

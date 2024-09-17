@@ -1,0 +1,11 @@
+## How is the survey structured?
+
+The survey has different options in which the user can interact with which include a list view, dropdown view, or select box view.
+
+## What is the questionnaire composed of?
+
+Throughout the survey there are numerous multiple choice questions, text entry, and matrix table.
+
+## How are the questions ordered?
+
+The questions are ordered numerically.
