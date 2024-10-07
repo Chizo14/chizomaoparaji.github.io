@@ -89,5 +89,12 @@
     "title": "Chizoma Oparaji's Portfolio",
     "section": "User Experience Design",
     "text": "User Experience Design\nUnderstanding how to design effective user experiences is essential for the success of a software system. This class covers topics associated with the design and analysis of user interfaces for software systems and explores human-computer interaction."
+  },
+  {
+    "objectID": "Assignment2.html",
+    "href": "Assignment2.html",
+    "title": "Chizoma Oparaji's Portfolio",
+    "section": "",
+    "text": "Link to the Mock Marvel Character Survey:\n${l://SurveyLink?d=Take the Survey}\nOr copy and paste the URL below into your internet browser:\n${l://SurveyURL}\nFollow the link to opt out of future emails:"
   }
 ]
