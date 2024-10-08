@@ -3,4 +3,6 @@ title: "Project Proposal Presentation.qmd"
 format: html
 ---
 
-/<https://cometmail-my.sharepoint.com/:p:/g/personal/cxo150730_utdallas_edu/Eb9-sYwRVshFmPSJNrEcH8YB4sqi2-1mDZYxPEpQZ8JoMQ?e=tROnjM>
+## Project Proposal Presentation
+
+\[slides\](Epps 6302 Project Presentation.pdf)
