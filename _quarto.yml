@@ -19,7 +19,7 @@ website:
           - href: Assignment2.qmd
             text: "Assignment 2"
       - href: Projects.qmd
-        text: Projects
+      - text: "Projects"
         menu: 
           - href: Epps 6302 Project Proposal.qmd
             text: "Project Proposal Presentation"
