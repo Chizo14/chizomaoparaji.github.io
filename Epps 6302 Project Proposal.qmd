@@ -1,8 +1,8 @@
 ---
-title: "Project Proposal Presentation.qmd"
+title: "Project Proposal Presentation.pdf"
 format: html
 ---
 
 ## Project Proposal Presentation
 
-\[slides\](Epps 6302 Project Presentation.pdf)
+[slides](Epps%206302%20Project%20Proposal.pdf)

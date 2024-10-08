@@ -22,7 +22,7 @@ website:
       - text: "Projects"
         menu: 
           - href: Epps 6302 Project Proposal.qmd
-            text: "Project Proposal Presentation"
+            text: "Epps 6302 Project Proposal.pdf"
       - href: Research.qmd
         text: Research
       - href: Chizoma's Oparaji Resume.pdf
