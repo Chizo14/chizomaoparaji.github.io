@@ -197,16 +197,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <a class="dropdown-item" href="./Epps 6302 Project Proposal.html">
  <span class="dropdown-text">Epps 6302 Project Proposal.pdf</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./Final Paper.html">
+ <span class="dropdown-text">Final Paper</span></a>
+  </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./Research.qmd">
- <span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Chizoma's Oparaji Resume.pdf">
- <span class="menu-text">CV</span></a>
-  </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
@@ -323,48 +319,49 @@ The following object is masked from 'package:ggplot2':
 <span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a><span class="do">#### Here’s an example of collecting data on the “US election 2024.”</span></span>
 <span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a><span class="do">#### Search for videos related to "US election 2024"</span></span>
-<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a>yt_CNN <span class="ot">&lt;-</span> <span class="fu">yt_search</span>(<span class="at">term =</span> <span class="st">"CNN"</span>)</span>
-<span id="cb9-42"><a href="#cb9-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-43"><a href="#cb9-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-44"><a href="#cb9-44" aria-hidden="true" tabindex="-1"></a><span class="do">#### Display the first few rows</span></span>
-<span id="cb9-45"><a href="#cb9-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-46"><a href="#cb9-46" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(yt_CNN)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a>yt_CNN <span class="ot">&lt;-</span> <span class="fu">yt_search</span>(<span class="at">term =</span> <span class="st">"CNN"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Auto-refreshing stale OAuth token.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="do">#### Display the first few rows</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(yt_CNN)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>     video_id          publishedAt                channelId
-1 YNH2L5uKt8M 2024-11-30T00:14:41Z UCupvZG-5ko_eiXAupbDfxWw
-2 hMKA7MRqDnc 2024-12-04T02:00:24Z UCupvZG-5ko_eiXAupbDfxWw
+1 ok_c2KPRnJA 2024-12-04T11:00:55Z UCupvZG-5ko_eiXAupbDfxWw
+2 YNH2L5uKt8M 2024-11-30T00:14:41Z UCupvZG-5ko_eiXAupbDfxWw
 3 jF8BGvXJ_Ps 2024-11-29T18:11:55Z UCupvZG-5ko_eiXAupbDfxWw
-4 1b5zKsrUW0M 2024-12-04T03:20:00Z UCupvZG-5ko_eiXAupbDfxWw
-5 ecxdbWtLYNE 2024-12-03T20:30:32Z UCupvZG-5ko_eiXAupbDfxWw
-6 xtZnqz3djBg 2024-12-04T00:59:05Z UCupvZG-5ko_eiXAupbDfxWw
-                                                                                                 title
-1                                                       Trump having dinner with Trudeau at Mar-a-Lago
-2                                       New video of violent police clashes with anti-Putin protestors
-3                                Elon Musk and Trump dance to &amp;#39;Y-M-C-A&amp;#39; at Thanksgiving dinner
-4     Republican strategist makes prediction about whether Trump will ‘cut’ Hegseth ‘free’ as his pick
-5                         Yoon backtracks after plunging South Korea into chaos with martial law order
-6 Protestors call for South Korean President Yoon Suk Yeol to step down after historic political chaos
-                                                                                                                             description
-1     Canadian Prime Minister Justin Trudeau arrived in West Palm Beach, Florida to have dinner with President-elect Donald Trump at ...
-2              CNN's Matthew Chance reports on six days of clashes between anti-Putin protesters and police in Georgia following the ...
-3               Tesla CEO Elon Musk celebrated Thanksgiving with President-elect Donald Trump and his family at Mar-A-Lago. Musk was ...
-4   As one of President-elect Donald Trump's cabinet picks appears to have an uphill battle in a confirmation hearing, Pete Hegseth, ...
-5 CNN's Mike Valerio reports from Seoul after South Korean President Yoon Suk Yeol said he will lift his martial law order following ...
-6    South Korean President Yoon Suk Yeol lifted a martial law order, just hours after his decree plunged the country into political ...
+4 JdlkQ13EYSQ 2024-12-04T12:06:25Z UCupvZG-5ko_eiXAupbDfxWw
+5 6QzopwikLl0 2024-12-04T13:12:23Z UCupvZG-5ko_eiXAupbDfxWw
+6 1b5zKsrUW0M 2024-12-04T03:20:00Z UCupvZG-5ko_eiXAupbDfxWw
+                                                                                             title
+1                                   DeSantis among names Trump team considering to replace Hegseth
+2                                                   Trump having dinner with Trudeau at Mar-a-Lago
+3                            Elon Musk and Trump dance to &amp;#39;Y-M-C-A&amp;#39; at Thanksgiving dinner
+4                                        Could Trump pardon NYC Mayor Eric Adams? Analysts discuss
+5                                                Rebel groups advance on another key city in Syria
+6 Republican strategist makes prediction about whether Trump will ‘cut’ Hegseth ‘free’ as his pick
+                                                                                                                           description
+1          President-elect Donald Trump's team is mulling options to replace Defense Secretary pick Pete Hegseth—including Florida ...
+2   Canadian Prime Minister Justin Trudeau arrived in West Palm Beach, Florida to have dinner with President-elect Donald Trump at ...
+3             Tesla CEO Elon Musk celebrated Thanksgiving with President-elect Donald Trump and his family at Mar-A-Lago. Musk was ...
+4    New York City Mayor Eric Adams blasted the Biden administration and dared the left to “cancel” him over his immigration policies.
+5            CNN's Ben Wedeman reports on the continued advance of armed rebel groups in northwestern Syria. The rebels launched a ...
+6 As one of President-elect Donald Trump's cabinet picks appears to have an uphill battle in a confirmation hearing, Pete Hegseth, ...
                           thumbnails.default.url thumbnails.default.width
-1 https://i.ytimg.com/vi/YNH2L5uKt8M/default.jpg                      120
-2 https://i.ytimg.com/vi/hMKA7MRqDnc/default.jpg                      120
+1 https://i.ytimg.com/vi/ok_c2KPRnJA/default.jpg                      120
+2 https://i.ytimg.com/vi/YNH2L5uKt8M/default.jpg                      120
 3 https://i.ytimg.com/vi/jF8BGvXJ_Ps/default.jpg                      120
-4 https://i.ytimg.com/vi/1b5zKsrUW0M/default.jpg                      120
-5 https://i.ytimg.com/vi/ecxdbWtLYNE/default.jpg                      120
-6 https://i.ytimg.com/vi/xtZnqz3djBg/default.jpg                      120
+4 https://i.ytimg.com/vi/JdlkQ13EYSQ/default.jpg                      120
+5 https://i.ytimg.com/vi/6QzopwikLl0/default.jpg                      120
+6 https://i.ytimg.com/vi/1b5zKsrUW0M/default.jpg                      120
   thumbnails.default.height                            thumbnails.medium.url
-1                        90 https://i.ytimg.com/vi/YNH2L5uKt8M/mqdefault.jpg
-2                        90 https://i.ytimg.com/vi/hMKA7MRqDnc/mqdefault.jpg
+1                        90 https://i.ytimg.com/vi/ok_c2KPRnJA/mqdefault.jpg
+2                        90 https://i.ytimg.com/vi/YNH2L5uKt8M/mqdefault.jpg
 3                        90 https://i.ytimg.com/vi/jF8BGvXJ_Ps/mqdefault.jpg
-4                        90 https://i.ytimg.com/vi/1b5zKsrUW0M/mqdefault.jpg
-5                        90 https://i.ytimg.com/vi/ecxdbWtLYNE/mqdefault.jpg
-6                        90 https://i.ytimg.com/vi/xtZnqz3djBg/mqdefault.jpg
+4                        90 https://i.ytimg.com/vi/JdlkQ13EYSQ/mqdefault.jpg
+5                        90 https://i.ytimg.com/vi/6QzopwikLl0/mqdefault.jpg
+6                        90 https://i.ytimg.com/vi/1b5zKsrUW0M/mqdefault.jpg
   thumbnails.medium.width thumbnails.medium.height
 1                     320                      180
 2                     320                      180
@@ -373,83 +370,83 @@ The following object is masked from 'package:ggplot2':
 5                     320                      180
 6                     320                      180
                                thumbnails.high.url thumbnails.high.width
-1 https://i.ytimg.com/vi/YNH2L5uKt8M/hqdefault.jpg                   480
-2 https://i.ytimg.com/vi/hMKA7MRqDnc/hqdefault.jpg                   480
+1 https://i.ytimg.com/vi/ok_c2KPRnJA/hqdefault.jpg                   480
+2 https://i.ytimg.com/vi/YNH2L5uKt8M/hqdefault.jpg                   480
 3 https://i.ytimg.com/vi/jF8BGvXJ_Ps/hqdefault.jpg                   480
-4 https://i.ytimg.com/vi/1b5zKsrUW0M/hqdefault.jpg                   480
-5 https://i.ytimg.com/vi/ecxdbWtLYNE/hqdefault.jpg                   480
-6 https://i.ytimg.com/vi/xtZnqz3djBg/hqdefault.jpg                   480
+4 https://i.ytimg.com/vi/JdlkQ13EYSQ/hqdefault.jpg                   480
+5 https://i.ytimg.com/vi/6QzopwikLl0/hqdefault.jpg                   480
+6 https://i.ytimg.com/vi/1b5zKsrUW0M/hqdefault.jpg                   480
   thumbnails.high.height channelTitle liveBroadcastContent          publishTime
-1                    360          CNN                 none 2024-11-30T00:14:41Z
-2                    360          CNN                 none 2024-12-04T02:00:24Z
+1                    360          CNN                 none 2024-12-04T11:00:55Z
+2                    360          CNN                 none 2024-11-30T00:14:41Z
 3                    360          CNN                 none 2024-11-29T18:11:55Z
-4                    360          CNN                 none 2024-12-04T03:20:00Z
-5                    360          CNN                 none 2024-12-03T20:30:32Z
-6                    360          CNN                 none 2024-12-04T00:59:05Z</code></pre>
+4                    360          CNN                 none 2024-12-04T12:06:25Z
+5                    360          CNN                 none 2024-12-04T13:12:23Z
+6                    360          CNN                 none 2024-12-04T03:20:00Z</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="do">### Step 4: Basic Analytics on YouTube Data</span></span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="do">#### Most Frequent Words in Video Titles</span></span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract titles and clean up</span></span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract titles and clean up</span></span>
-<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>titles <span class="ot">&lt;-</span> yt_CNN<span class="sc">$</span>title</span>
-<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>titles_clean <span class="ot">&lt;-</span> <span class="fu">tolower</span>(titles) <span class="sc">%&gt;%</span></span>
-<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stri_replace_all_regex</span>(<span class="st">"[[:punct:]]"</span>, <span class="st">""</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">str_split</span>(<span class="st">" "</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unlist</span>()</span>
-<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a word frequency table</span></span>
-<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>word_freq <span class="ot">&lt;-</span> <span class="fu">table</span>(titles_clean)</span>
-<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>word_freq_df <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(word_freq, <span class="at">stringsAsFactors =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(word_freq_df) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"word"</span>, <span class="st">"freq"</span>)</span>
-<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter common words (stop words) and plot a word cloud</span></span>
-<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>word_freq_df <span class="ot">&lt;-</span> word_freq_df <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="sc">!</span>word <span class="sc">%in%</span> tm<span class="sc">::</span><span class="fu">stopwords</span>(<span class="st">"en"</span>))</span>
-<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
-<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a><span class="fu">wordcloud</span>(<span class="at">words =</span> word_freq_df<span class="sc">$</span>word, <span class="at">freq =</span> word_freq_df<span class="sc">$</span>freq, <span class="at">max.words =</span> <span class="dv">50</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="do">### Step 4: Basic Analytics on YouTube Data</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="do">#### Most Frequent Words in Video Titles</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract titles and clean up</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract titles and clean up</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>titles <span class="ot">&lt;-</span> yt_CNN<span class="sc">$</span>title</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>titles_clean <span class="ot">&lt;-</span> <span class="fu">tolower</span>(titles) <span class="sc">%&gt;%</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stri_replace_all_regex</span>(<span class="st">"[[:punct:]]"</span>, <span class="st">""</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">str_split</span>(<span class="st">" "</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unlist</span>()</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a word frequency table</span></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>word_freq <span class="ot">&lt;-</span> <span class="fu">table</span>(titles_clean)</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>word_freq_df <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(word_freq, <span class="at">stringsAsFactors =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(word_freq_df) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"word"</span>, <span class="st">"freq"</span>)</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter common words (stop words) and plot a word cloud</span></span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>word_freq_df <span class="ot">&lt;-</span> word_freq_df <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="sc">!</span>word <span class="sc">%in%</span> tm<span class="sc">::</span><span class="fu">stopwords</span>(<span class="st">"en"</span>))</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a><span class="fu">wordcloud</span>(<span class="at">words =</span> word_freq_df<span class="sc">$</span>word, <span class="at">freq =</span> word_freq_df<span class="sc">$</span>freq, <span class="at">max.words =</span> <span class="dv">50</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="Assignment5_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
 </div>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="do">### 4.2. Plot Video Publish Dates</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Format publish dates and aggregate data</span></span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>yt_sm <span class="ot">&lt;-</span> yt_CNN <span class="sc">%&gt;%</span></span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">publish_date =</span> <span class="fu">as.Date</span>(publishedAt)) <span class="sc">%&gt;%</span></span>
-<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(publish_date)</span>
-<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the frequency of videos published over time</span></span>
-<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(yt_sm, <span class="fu">aes</span>(<span class="at">x =</span> publish_date, <span class="at">y =</span> n)) <span class="sc">+</span></span>
-<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"blue"</span>) <span class="sc">+</span></span>
-<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Videos Published Over Time"</span>, <span class="at">x =</span> <span class="st">"Date"</span>, <span class="at">y =</span> <span class="st">"Number of Videos"</span>) <span class="sc">+</span>  </span>
-<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="do">### 4.2. Plot Video Publish Dates</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Format publish dates and aggregate data</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>yt_sm <span class="ot">&lt;-</span> yt_CNN <span class="sc">%&gt;%</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">publish_date =</span> <span class="fu">as.Date</span>(publishedAt)) <span class="sc">%&gt;%</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(publish_date)</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the frequency of videos published over time</span></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(yt_sm, <span class="fu">aes</span>(<span class="at">x =</span> publish_date, <span class="at">y =</span> n)) <span class="sc">+</span></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"blue"</span>) <span class="sc">+</span></span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Videos Published Over Time"</span>, <span class="at">x =</span> <span class="st">"Date"</span>, <span class="at">y =</span> <span class="st">"Number of Videos"</span>) <span class="sc">+</span>  </span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="Assignment5_files/figure-html/unnamed-chunk-1-2.png" class="img-fluid" width="672"></p>
 </div>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="do">###  4.3. Top Channels by Video Count</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Summarize by channel</span></span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>top_channels <span class="ot">&lt;-</span> yt_CNN <span class="sc">%&gt;%</span></span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(channelTitle, <span class="at">sort =</span> <span class="cn">TRUE</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">top_n</span>(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="do">###  4.3. Top Channels by Video Count</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Summarize by channel</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>top_channels <span class="ot">&lt;-</span> yt_CNN <span class="sc">%&gt;%</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(channelTitle, <span class="at">sort =</span> <span class="cn">TRUE</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">top_n</span>(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Selecting by n</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot top channels</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(top_channels, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(channelTitle, n), <span class="at">y =</span> n)) <span class="sc">+</span></span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">fill =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
-<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Top Channels on 'CNN'"</span>, <span class="at">x =</span> <span class="st">"Channel"</span>, <span class="at">y =</span> <span class="st">"Number of Videos"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot top channels</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(top_channels, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(channelTitle, n), <span class="at">y =</span> n)) <span class="sc">+</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">fill =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Top Channels on 'CNN'"</span>, <span class="at">x =</span> <span class="st">"Channel"</span>, <span class="at">y =</span> <span class="st">"Number of Videos"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="Assignment5_files/figure-html/unnamed-chunk-1-3.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <ol type="1">
-<li><p>The word “cnn” and “trump” comment stands out more because of the freqeuncy</p></li>
+<li><p>The word “cnn” and “trump” comment stands out more because of the frequency</p></li>
 <li><p>The CNN channel stats shows us the top channels with CNN having the most number of videos</p></li>
 <li><p>Can you use quanteda to analyze the text data from Youtube comments?</p>
 <p>Yes, you can use quanteda to analyze text data. It will show you the results in a bar graph</p></li>
